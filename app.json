@@ -1,16 +1,16 @@
 {
-    "name": "Python-Drive-Bot",
+    "name": "AiTorrentWare-Bot",
     "description": "Telegram-Direct-Mirror to G-Drive",
-    "logo": "https://telegra.ph/file/e15e9ac9c5885b015e3ab.jpg",
+    "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
     "keywords": [
       "telegram",
       "bot",
       "aria",
       "python"
     ],
-    "repository": "https://github.com/AbirHasan2005/magneto-python-aria.git",
-    "website": "https://t.me/linux_repo",
-    "success_url": "https://t.me/linux_repo",
+    "repository": "https://github.com/MonkTeam/Py-Test",
+    "website": "https://t.me/AiTorrent_Ware",
+    "success_url": "https://t.me/AiTorrent_Ware",
     "stack": "container",
     "env": {
       "ENV": {
