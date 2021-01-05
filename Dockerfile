@@ -11,8 +11,8 @@ RUN apt-get -qq update && \
     apt-get -qq install -y p7zip-full p7zip-rar aria2 wget curl pv jq ffmpeg locales python3-lxml && \
     apt-get purge -y software-properties-common
 
-RUN wget https://raw.githubusercontent.com/AbirHasan2005/Mirror-Magneto/main/authorized_chats.txt
-COPY token.pickle .
+RUN wget https://raw.githubusercontent.com/MonkTeam/MG-1/main/authorized_chats.txt
+COPY https://raw.githubusercontent.com/MonkTeam/MG-1/main/token.pickle .
 COPY requirements.txt .
 RUN pip3 uninstall appdirs
 RUN pip3 install appdirs
