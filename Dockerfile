@@ -12,7 +12,7 @@ RUN apt-get -qq update && \
     apt-get purge -y software-properties-common
 
 RUN wget https://raw.githubusercontent.com/MonkTeam/Ss/main/authorized_chats.txt
-RUN wget https://raw.githubusercontent.com/MonkTeam/Ss/main/token.pickle
+COPY token.pickle .
 COPY requirements.txt .
 RUN pip3 uninstall appdirs
 RUN pip3 install appdirs
